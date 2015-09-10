@@ -1,0 +1,29 @@
+import turtle
+
+def draw_square(some_turtle):
+    for i in range (1,5):
+        some_turtle.forward(100)
+        some_turtle.right(90)
+
+def draw_art():
+    window=turtle.Screen() #to display a screen, screen has an uppercase 's'
+    window.bgcolor("red")  #set the color of the screen to red
+
+#create the turtle Brad -draw square
+    brad= turtle.Turtle() # the turtle(arrow) name Turtle
+    brad.shape("turtle")
+    brad.color("yellow")
+
+    brad.speed(2)
+    for i in range(1,37):
+        draw_square(brad)
+        brad.right(10)#after drawing one square turn 10 degrees right
+#create the turtle Angle - draw a circle
+    #angle = turtle.Turtle()
+    #angle.shape("arrow")
+    #angle.color("blue")
+    #angle.circle(100)
+
+
+    window.exitonclick() #exit window when you click on it
+draw_art()
