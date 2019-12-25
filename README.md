@@ -25,10 +25,10 @@ a. While the IDLE is still open navigate to File>New File<br>
 b. Copy the code for this program from here and paste it into the newly created file<br>
 c. Save the file and Select "Run Module" from the "Run" from the top menu options<br>
 
-## Sqaure Output
+## Square Output
 ![Screen Shot 2019-12-25 at 11 30 32 AM](https://user-images.githubusercontent.com/13493736/71449446-fc577380-2709-11ea-94fb-1bd98a2f87b6.png)
 
-## Sqaure and Circle Output
+## Square and Circle Output
 ![Screen Shot 2019-12-25 at 11 29 19 AM](https://user-images.githubusercontent.com/13493736/71449434-d29e4c80-2709-11ea-8080-d4acbcaf1d0f.png)
 
 ## Cirlce Out of Squares Output
