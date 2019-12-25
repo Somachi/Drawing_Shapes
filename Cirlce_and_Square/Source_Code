@@ -1,0 +1,28 @@
+
+import turtle
+
+def draw_square():
+    window=turtle.Screen() #to display a screen, screen has an uppercase 's'
+    window.bgcolor("red")  #set the color of the screen to red
+
+    brad= turtle.Turtle() # the turtle(arrow) name Turtle
+    brad.shape("turtle")
+    brad.color("yellow")
+    brad.speed(2)
+
+    brad.forward(100) #let the turtle move 100 distance forward
+    brad.right(90) #turns at angle 90 degrees
+    brad.forward(100)
+    brad.right(90)
+    brad.forward(100)
+    brad.right(90)
+    brad.forward(100)
+    brad.right(90)
+
+    angie = turtle.Turtle()
+    angie.shape("arrow")
+    angie.color("blue")
+    angie.circle(100)
+
+    window.exitonclick() #exit window when you click on it
+draw_square()
